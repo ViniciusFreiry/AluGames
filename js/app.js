@@ -1,7 +1,7 @@
 function alterarStatus(id) {
     const game = document.getElementById(`game-${id}`);
-    const container = game.querySelector("div");
-    const button = game.querySelector("a");
+    const container = game.querySelector(".dashboard__item__img");
+    const button = game.querySelector(".dashboard__item__button");
 
     if (container.classList.contains("dashboard__item__img--rented")) {
         container.classList.remove("dashboard__item__img--rented");
